@@ -181,3 +181,9 @@ html:has(body.ld-in-focus-mode) {
 {
     color: #FF9DFB !important;
 }
+
+.ld-in-focus-mode .ld-mobile-nav .ld-trigger-mobile-nav span::before,
+.ld-in-focus-mode .ld-mobile-nav .ld-trigger-mobile-nav span::after
+{
+    background-color: #FF9DFB !important;
+}
