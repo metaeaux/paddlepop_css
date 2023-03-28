@@ -133,9 +133,9 @@ html:has(body.ld-in-focus-mode) {
     color: #baffff;
 }
 
-.ld-in-focus-mode .single-sfwd-lessons .learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab:first-child .ld-icon,
-.ld-in-focus-mode .single-sfwd-lessons .learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab:nth-child(2) .ld-icon,
-.ld-in-focus-mode .single-sfwd-lessons .learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab:nth-child(3) .ld-icon
+.ld-in-focus-mode.single-sfwd-lessons .learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab:first-child .ld-icon,
+.ld-in-focus-mode.single-sfwd-lessons .learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab:nth-child(2) .ld-icon,
+.ld-in-focus-mode.single-sfwd-lessons .learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab:nth-child(3) .ld-icon
 {
     filter: invert() hue-rotate(270deg);
 }
