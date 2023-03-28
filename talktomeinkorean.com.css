@@ -36,7 +36,12 @@ html:has(body.ld-in-focus-mode) {
 .ld-in-focus-mode .learndash-wrapper .ld-focus .ld-focus-header .ld-user-menu,
 .ld-in-focus-mode .learndash-wrapper .ld-focus .ld-focus-header .ld-notification-layer
 {
-    border-left: 1px solid #3E478E;
+    border-left: none;
+}
+
+.ld-in-focus-mode .learndash-wrapper .ld-focus .ld-focus-header
+{
+    border-right: none;
 }
 
 .ld-in-focus-mode .learndash-wrapper .ld-focus .ld-focus-sidebar .ld-course-navigation .ld-lesson-item
@@ -115,8 +120,8 @@ html:has(body.ld-in-focus-mode) {
 
 .ld-in-focus-mode .learndash-wrapper .ld-primary-background,
 .ld-in-focus-mode .learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active:after,
-.ld-in-focus-mode .single-sfwd-lessons .learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active:nth-child(2):after,
-.ld-in-focus-mode .single-sfwd-lessons .learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active:nth-child(3):after
+.ld-in-focus-mode.single-sfwd-lessons .learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active:nth-child(2):after,
+.ld-in-focus-mode.single-sfwd-lessons .learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active:nth-child(3):after
 {
     background: #FF9DFB !important;
     background-color: #FF9DFB !important;
@@ -186,4 +191,15 @@ html:has(body.ld-in-focus-mode) {
 .ld-in-focus-mode .ld-mobile-nav .ld-trigger-mobile-nav span::after
 {
     background-color: #FF9DFB !important;
+}
+
+.ld-in-focus-mode .learndash-wrapper .ld-quiz-actions
+{
+    border-top: 2px solid #3E478E;
+}
+
+.ld-in-focus-mode .learndash-wrapper .wpProQuiz_content .wpProQuiz_questionListItem label
+{
+    border: 2px solid #3E478E;
+    color: #baffff;
 }
