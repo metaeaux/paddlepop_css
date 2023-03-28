@@ -1,0 +1,183 @@
+body.ld-in-focus-mode,
+.ld-in-focus-mode h1,
+.ld-in-focus-mode h2,
+.ld-in-focus-mode h3,
+.ld-in-focus-mode h4,
+.ld-in-focus-mode h5,
+.ld-in-focus-mode h6,
+.ld-in-focus-mode .heading-font
+{
+    color: #baffff;
+}
+
+.ld-focus-content.audio-sticky .ld-tabs-navigation,
+body.ld-in-focus-mode .learndash-wrapper,
+body.ld-in-focus-mode,
+.ld-in-focus-mode .learndash-wrapper .ld-focus .ld-focus-header .ld-brand-logo
+{
+    background: #1F2345;
+}
+
+html:has(body.ld-in-focus-mode) {
+    background-color: #1F2345 !important;
+}
+
+.ld-in-focus-mode .learndash-wrapper .ld-focus .ld-focus-header,
+.ld-in-focus-mode .learndash-wrapper .ld-focus .ld-focus-sidebar
+{
+    background-color: #1F2345;
+    border-right: 1px solid #3E478E;
+}
+.ld-in-focus-mode .learndash-wrapper .ld-focus .ld-focus-header
+{
+    border-bottom: 1px solid #3E478E;
+}
+
+.ld-in-focus-mode .learndash-wrapper .ld-focus .ld-focus-header .ld-user-menu,
+.ld-in-focus-mode .learndash-wrapper .ld-focus .ld-focus-header .ld-notification-layer
+{
+    border-left: 1px solid #3E478E;
+}
+
+.ld-in-focus-mode .learndash-wrapper .ld-focus .ld-focus-sidebar .ld-course-navigation .ld-lesson-item
+{
+    background-color: #252B57;
+    border-bottom: 1px solid #3E478E;
+}
+
+.ld-in-focus-mode .learndash-wrapper .ld-focus .ld-focus-header .ld-brand-logo img
+{
+    filter: invert() hue-rotate(270deg);
+}
+
+.ld-in-focus-mode .learndash-wrapper .ld-course-navigation .ld-lesson-item-preview a.ld-lesson-item-preview-heading
+{
+    color: #baffff;
+}
+
+.ld-in-focus-mode .learndash-wrapper .ld-breadcrumbs a,
+.ld-in-focus-mode .learndash-wrapper .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading,
+.ld-in-focus-mode .learndash-wrapper .ld-lesson-item.ld-is-current-lesson .ld-lesson-title,
+.ld-in-focus-mode .learndash-wrapper .ld-primary-color-hover:hover,
+.ld-in-focus-mode .learndash-wrapper .ld-primary-color,
+.ld-in-focus-mode .learndash-wrapper .ld-primary-color-hover:hover,
+.ld-in-focus-mode .learndash-wrapper .ld-primary-color,
+.ld-in-focus-mode .learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active,
+.ld-in-focus-mode .learndash-wrapper .ld-button.ld-button-transparent,
+.ld-in-focus-mode .learndash-wrapper .ld-button.ld-button-reverse,
+.ld-in-focus-mode .learndash-wrapper .ld-icon-certificate,
+.ld-in-focus-mode .learndash-wrapper .ld-login-modal .ld-login-modal-login .ld-modal-heading,
+.ld-in-focus-mode #wpProQuiz_user_content a,
+.ld-in-focus-mode .learndash-wrapper .ld-item-list .ld-item-list-item a.ld-item-name:hover,
+.ld-in-focus-mode .learndash-wrapper .ld-focus-comments__heading-actions .ld-expand-button,
+.ld-in-focus-mode .learndash-wrapper .ld-focus-comments__heading a,
+.ld-in-focus-mode .learndash-wrapper .ld-focus-comments .comment-respond a,
+.ld-in-focus-mode .learndash-wrapper .ld-focus-comment .ld-comment-reply a.comment-reply-link:hover,
+.ld-in-focus-mode .learndash-wrapper .ld-expand-button.ld-button-alternate
+{
+    color: #FF9DFB !important;
+}
+
+.ld-in-focus-mode .learndash-wrapper .ld-button:hover:not(.learndash-link-previous-incomplete):not(.ld-button-transparent),
+.ld-in-focus-mode #learndash-tooltips .ld-tooltip:after,
+.ld-in-focus-mode #learndash-tooltips .ld-tooltip,
+.ld-in-focus-mode .learndash-wrapper .ld-primary-background,
+.ld-in-focus-mode .learndash-wrapper .btn-join,
+.ld-in-focus-mode .learndash-wrapper #btn-join,
+.ld-in-focus-mode .learndash-wrapper .ld-button:not(.ld-button-reverse):not(.learndash-link-previous-incomplete):not(.ld-button-transparent),
+.ld-in-focus-mode .learndash-wrapper .ld-expand-button,
+.ld-in-focus-mode .learndash-wrapper .wpProQuiz_content .wpProQuiz_button:not(.wpProQuiz_button_reShowQuestion):not(.wpProQuiz_button_restartQuiz),
+.ld-in-focus-mode .learndash-wrapper .wpProQuiz_content .wpProQuiz_button2,
+.ld-in-focus-mode .learndash-wrapper .ld-focus .ld-focus-sidebar .ld-course-navigation-heading,
+.ld-in-focus-mode .learndash-wrapper .ld-focus .ld-focus-sidebar .ld-focus-sidebar-trigger,
+.ld-in-focus-mode .learndash-wrapper .ld-focus-comments .form-submit #submit,
+.ld-in-focus-mode .learndash-wrapper .ld-login-modal input[type='submit'],
+.ld-in-focus-mode .learndash-wrapper .ld-login-modal .ld-login-modal-register,
+.ld-in-focus-mode .learndash-wrapper .wpProQuiz_content .wpProQuiz_certificate a.btn-blue,
+.ld-in-focus-mode .learndash-wrapper .ld-focus .ld-focus-header .ld-user-menu .ld-user-menu-items a,
+.ld-in-focus-mode #wpProQuiz_user_content table.wp-list-table thead th,
+.ld-in-focus-mode #wpProQuiz_overlay_close,
+.ld-in-focus-mode .learndash-wrapper .ld-expand-button.ld-button-alternate .ld-icon
+{
+    background-color: #3E478E !important;
+}
+
+.ld-in-focus-mode .learndash-wrapper .ld-content-actions
+{
+    border-top: 2px solid #3E478E;
+}
+
+.ld-in-focus-mode .learndash-wrapper .sfwd-mark-complete .learndash_mark_incomplete_button
+{
+    color: #3E478E !important;
+    background-color: #FF9DFB !important;
+}
+
+.ld-in-focus-mode .learndash-wrapper .ld-primary-background,
+.ld-in-focus-mode .learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active:after,
+.ld-in-focus-mode .single-sfwd-lessons .learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active:nth-child(2):after,
+.ld-in-focus-mode .single-sfwd-lessons .learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active:nth-child(3):after
+{
+    background: #FF9DFB !important;
+    background-color: #FF9DFB !important;
+}
+
+.ld-in-focus-mode .learndash-wrapper .ld-tabs .ld-tabs-navigation:after
+{
+    background: #3E478E;
+}
+
+.ld-in-focus-mode .learndash-wrapper .ld-focus .ld-focus-sidebar .ld-course-navigation-heading h3 a,
+.ld-in-focus-mode .learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab .ld-text
+{
+    color: #baffff;
+}
+
+.ld-in-focus-mode .single-sfwd-lessons .learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab:first-child .ld-icon,
+.ld-in-focus-mode .single-sfwd-lessons .learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab:nth-child(2) .ld-icon,
+.ld-in-focus-mode .single-sfwd-lessons .learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab:nth-child(3) .ld-icon
+{
+    filter: invert() hue-rotate(270deg);
+}
+
+.ld-in-focus-mode .ld-focus-content.audio-sticky .ld-tabs-navigation
+{
+    background: #1F2345 !important;
+}
+
+.ld-in-focus-mode .learndash-wrapper .ld-focus .ld-focus-header .ld-user-menu .ld-text
+{
+    color: #7484FF;
+}
+
+.learndash-wrapper .ld-status-complete
+{
+    color: #3E478E;
+}
+
+.ld-in-focus-mode .learndash-wrapper #quiz_continue_link,
+.learndash-wrapper .ld-secondary-background,
+.ld-in-focus-mode .learndash-wrapper .learndash_mark_complete_button,
+.ld-in-focus-mode .learndash-wrapper #learndash_mark_complete_button,
+.ld-in-focus-mode .learndash-wrapper .ld-status-complete,
+.ld-in-focus-mode .learndash-wrapper .ld-alert-success .ld-button,
+.ld-in-focus-mode .learndash-wrapper .ld-alert-success .ld-alert-icon
+{
+    background-color: #FF9DFB !important;
+}
+
+.ld-in-focus-mode .learndash-wrapper .ld-course-navigation .ld-status-icon.ld-status-incomplete
+{
+    border: 2px solid #7484FF;
+}
+
+.ld-in-focus-mode .learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading .ld-status-incomplete,
+.ld-in-focus-mode .learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-title .ld-status-incomplete
+{
+    border: 2px solid #FF9DFB !important;
+}
+
+.ld-in-focus-mode h3 > span > strong
+{
+    color: #FF9DFB !important;
+}
