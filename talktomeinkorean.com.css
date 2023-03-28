@@ -203,3 +203,24 @@ html:has(body.ld-in-focus-mode) {
     border: 2px solid #3E478E;
     color: #baffff;
 }
+
+.ld-in-focus-mode .learndash-wrapper .wpProQuiz_content .wpProQuiz_questionListItem>table td .wpProQuiz_maxtrixSortText
+{
+    color: #baffff;
+}
+
+.ld-in-focus-mode .learndash-wrapper .wpProQuiz_content .wpProQuiz_sortStringItem
+{
+    background: #3E478E;
+    color: #FF9DFB;
+}
+
+.ld-in-focus-mode .learndash-wrapper .wpProQuiz_content .wpProQuiz_questionListItem>table
+{
+    border: 2px solid #3E478E;
+}
+
+.ld-in-focus-mode .learndash-wrapper .wpProQuiz_content .wpProQuiz_questionListItem>table td:first-child
+{
+    border-right: 2px solid #3E478E;
+}
