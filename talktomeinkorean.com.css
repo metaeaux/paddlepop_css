@@ -224,3 +224,40 @@ html:has(body.ld-in-focus-mode) {
 {
     border-right: 2px solid #3E478E;
 }
+
+.ld-in-focus-mode .wpProQuiz_content .wpProQuiz_placehold {
+    border-color: #FF9DFB !important;
+    background-color: #7484FF;
+}
+
+.ld-in-focus-mode .learndash-wrapper .wpProQuiz_content .wpProQuiz_response {
+    background-color: #252B57;
+    border-color: #3E478E;
+}
+
+.ld-in-focus-mode .learndash-wrapper .wpProQuiz_content .wpProQuiz_response .wpProQuiz_AnswerMessage,
+.ld-in-focus-mode .learndash-wrapper .wpProQuiz_content .wpProQuiz_response .wpProQuiz_correct
+{
+    color: #baffff;
+}
+
+.ld-in-focus-mode .learndash-wrapper .wpProQuiz_content .wpProQuiz_response .wpProQuiz_AnswerMessage {
+    border-color: #3E478E;
+}
+
+.ld-in-focus-mode .learndash-wrapper .wpProQuiz_content .wpProQuiz_questionListItem.wpProQuiz_answerCorrect label,
+.ld-in-focus-mode .learndash-wrapper .wpProQuiz_content .wpProQuiz_questionListItem.wpProQuiz_answerCorrectIncomplete label
+{
+    background-color: #173838;
+}
+
+.ld-in-focus-mode .learndash-wrapper .wpProQuiz_content .wpProQuiz_questionListItem.wpProQuiz_answerIncorrect label,
+.ld-in-focus-mode .learndash-wrapper .wpProQuiz_content .wpProQuiz_questionListItem.wpProQuiz_answerIncorrect>table
+{
+    background-color: #4D2D1E;
+}
+
+.ld-in-focus-mode .learndash-wrapper .wpProQuiz_content .wpProQuiz_questionListItem.wpProQuiz_answerCorrect>table td
+{
+    background-color: #173838;
+}
