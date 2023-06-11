@@ -1,0 +1,188 @@
+:root {
+    --blue: #62E6FF !important;
+    --indigo: #7484FF !important;
+    --purple: #9497FF !important;
+    --pink: #FF9DFB !important;
+    --red: #FF8F6C !important;
+    --orange: #FFD890 !important;
+    --yellow: #FFEDCC !important;
+    --green: #7DFFB8 !important;
+    --teal: #A7FFCE !important;
+    --cyan: #94eeff !important;
+    --white: #BAFFFF !important;
+    --gray: #9497FF !important;
+    --gray-dark: #7484FF !important;
+    --primary: #FF9DFB !important;
+    --secondary: #7DFFB8 !important;
+    --success: #9497FF !important;
+    --info: #62E6FF !important;
+    --warning: #FFD890 !important;
+    --danger: #FF8F6C !important;
+    --light: #BAFFFF !important;
+    --dark: #3E478E !important;
+}
+
+body {
+    color: #baffff !important;
+    background-color: #1F2345 !important;
+}
+
+.navbar-light .navbar-toggler,
+.navbar-light .navbar-nav .nav-link {
+    color: #7484FF !important;
+}
+
+.btn-secondary {
+    color: #3E478E !important;
+    background-color: #FF9DFB !important;
+    border-color: #FF9DFB !important;
+}
+
+.btn-secondary:hover {
+    color: #3E478E !important;
+    background-color: #FFC5FC !important;
+    border-color: #FF9DFB !important;
+}
+
+
+.btn-outline-secondary {
+    color: #62E6FF !important;
+    border-color: #62E6FF !important;
+}
+
+.btn-outline-secondary:not(:disabled):not(.disabled).active,
+.btn-outline-secondary:not(:disabled):not(.disabled):active,
+.show>.btn-outline-secondary.dropdown-toggle
+{
+    color: #3E478E !important;
+    background-color: #62E6FF !important;
+    border-color: #62E6FF !important;
+}
+
+.btn-outline-secondary:hover {
+    color: #3E478E !important;
+    background-color: #94eeff !important;
+    border-color: #62E6FF !important;
+}
+
+.btn-danger:not(:disabled):not(.disabled).active, .btn-danger:not(:disabled):not(.disabled):active, .show>.btn-danger.dropdown-toggle {
+    color: #3E478E !important;
+    background-color: #FF8F6C !important;
+    border-color: #FF8F6C !important;
+}
+
+.card {
+    background-color: #252B57 !important;
+    border-color: #252B57 !important;
+}
+
+.border-secondary,
+.card.border-secondary {
+    border-color: #252B57 !important;
+}
+
+.table,
+.btn,
+.card-body,
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6,
+h5 .d-inline-block,
+.text-body {
+    color: #baffff !important;
+}
+
+.btn-link,
+a, a:hover {
+    color: #FF9DFB !important;
+}
+
+.text-muted,
+.btn.text-muted,
+a.text-muted,
+ul.text-muted,
+div.text-muted
+{
+    color: #9497FF !important;
+}
+
+a.text-info, .text-info,
+a.text-info:focus, a.text-info:hover {
+    color: #62E6FF !important;
+}
+
+.vote-bar .text-info {
+    color: #FF9DFB !important;
+}
+
+select,
+.custom-select {
+    background-color: #252B57 !important;
+    border-color: #3E478E !important;
+}
+
+select {
+    appearance: none !important;
+}
+
+::placeholder,
+*.post-title a:visited {
+    color: #9497FF !important;
+}
+
+.border-top.border-light {
+    border-color: #252B57 !important;
+}
+
+.badge {
+    background-color: #9497FF !important;
+    border-color: #9497FF !important;
+    color: #3E478E !important;
+}
+
+.form-control {
+    background-color: #252B57 !important;
+    border-color: #252B57 !important;
+    color: #baffff !important;
+}
+
+.comment .comments .comment-node {
+    border-left-color: #FF9DFB !important;
+}
+
+div[style="border-left: 2px hsla(0, 35%, 50%, 1) solid !important"],
+div[style*="border-left: 2px hsla(50, 35%, 50%, 1) solid !important"] {
+    border-left-color: #FF9DFB !important;
+}
+
+.bg-secondary,
+.thumbnail.bg-light,
+.mark, mark {
+    background-color: #252B57 !important;
+}
+
+.text-warning,
+span.text-warning {
+    color: #7DFFB8 !important;
+}
+
+code {
+    color: #FFD890 !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #BAFFFF;
+    background-color: #1F2345;
+    border-color: #3E478E #3E478E transparent;
+}
+
+.table thead th,
+.nav-tabs {
+    border-bottom: 1px solid #3E478E !important;
+}
+
+.table td, .table th {
+    border-top: 1px solid #3E478E !important;
+}
+
+table {
+    border-top-color: #3E478E !important;
+}
